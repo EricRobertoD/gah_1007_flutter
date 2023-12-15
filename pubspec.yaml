@@ -1,0 +1,28 @@
+name: gah_1007_flutter
+description: A new Flutter project
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_secure_storage: ^9.0.0
+  cupertino_icons: ^1.0.2
+  convex_bottom_bar: ^3.2.0
+  flutter_card_swiper: ^6.0.0
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/gah_logo.png
+    - assets/profilegah.png
